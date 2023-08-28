@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up GlobaBrain</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <link rel="shortcut icon" href="globabrainlogo.jpg" type="image/x-icon">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="globabrainlogo.jpg" alt="img is missing">
+        <p class="navitem"><a class="navlink" href="index.html">Home</a></li></p>
+        <p class="navitem"><a class="navlink" href="about.html">About</a></p>
+        <p class="navitem"><a class="navlink" href="ourservices.html">Services</a></p>
+        <p class="navitem"><a class="navlink" href="features.html">Features</a></p>
+        <p class="navitem"><a class="navlink" href="journals.html">Journals</a></p>
+        <p class="navitem"><a class="navlink" href="publshdjournals.html">Published Journals</a></p>
+        <p class="navitem"><a class="navlink" href="contactus.html">Contact</a></p>
+        <p id="signup" class="navitem"><a id="sign" class="navlink" href="signup.html">Sign Up</a></p>
+        <p id="login" class="navitem"><a id="log" class="navlink" href="login.html">Login</a></p>
+    </nav>
+    <img id="dropdown_togle" onclick="openMenu()" src="togle__menu_icon.png" alt="">
+    <img id="dropdown_togleX" onclick="closeMenu()" src="togle_close_icon.png" alt="">
+    <ul id="dropdown_content">
+        <li class="list"><a class="dropdown_link" href="index.html">Home</a></li>
+        <li class="list"><a class="dropdown_link" href="about.html">About</a></li>
+        <li class="list"><a class="dropdown_link" href="ourservices.html">Services</a></li>
+        <li class="list"><a class="dropdown_link" href="features.html">Features</a></li>
+        <li class="list"><a class="dropdown_link" href="journals.html">Journals</a></li>
+        <li class="list"><a class="dropdown_link" href="publshdjournals.html">Published Journals</a></li>
+        <li class="list"><a class="dropdown_link" href="contactus.html">Contact</a></li>
+        <li id="sign_up" class="list"><a class="dropdown_link" href="signup.html">Sign Up</a></li>
+        <li id="log_in" class="list"><a class="dropdown_link" href="login.html">Login</a></li>
+    </ul>
+    <section class="signup">
+        <div class="signinfo">
+            <h1 class="sign">Sign up</h1>
+            <p class="signp">to use all features <br> and services</p>
+            <div class="cycleone"></div>
+            <div class="cycletwo"></div>
+            <div class="cyclethree"></div>
+            <div class="cyclefour"></div>
+        </div>
+        <div class="formsup">
+            <form action="">
+                <label for="name">First Name</label>
+                <br><input class="formitem" type="text" required>
+                <br>
+                <br> <label for="username">Surname</label>
+                <br><input class="formitem" type="text" required>
+                <br>
+                <br>
+                <label for="phonenumber">Phone No</label>
+                <br><input class="formitem" type="tel">
+                <br>
+                <br><label for="email.">Email</label>
+                <br>
+                <input class="formitem" type="email" required>
+                <br><br>
+                <label for="password">Password</label>
+                <br><input class="formitem" type="password" required>
+                <br>
+                <br><label for="password">Confirm password</label>
+                <br>
+                <input class="formitem" type="password" required> <br>
+                <br>
+                <input type="checkbox"> <span class="agree" required="">By signing you agree to our <a href="t&c.html" class="tc">terms and conditions.</a></span>
+                <br>
+                <br>
+                <button class="signupbtn">Sign up</button> <span>or <a class="login" href="login.html">Log in</a></span> <span><button type="reset">Reset</button></span>
+            </form>
+        </div>    
+    </section>
+</section>    
+<section class="newsletter">
+    <form action="">
+        <h1 id="hsubs">Subscribe to Newsletter</h1>
+        <p class="subs">Enter your email address to register to our newsletter subscription!</p>
+        <input class="input" type="email" placeholder="Email address" required> <br>
+        <button class="sendbtn">Send</button>
+    </form>
+</section>
+<footer>
+    <div class="socialicon">
+        <span class="tooltip"><a class="socfb" href=""><img class="social" src="logo_fb.jpg" alt=""></a>
+            <span class="tooltip-content"><b>facebook</b></span>
+        </span>
+    </div>
+    <div class="socialicon">
+        <span class="tooltiptwo"><a href="" class="socig"><img class="social" src="logo_instagram.jpg" alt=""></a>
+            <span class="tooltip-contentwo"><b>Instagram</b></span>
+        </span>
+    </div>
+    <div class="socialicon">
+        <span class="tooltipthree"><a href="" class="soctw"><img class="social" src="logo_twitter.jpg" alt=""></a>
+            <span class="tooltip-contenthree"><b>twitter</b></span>
+        </span>
+    </div> 
+    <div class="socialicon">
+        <span class="tooltipfour"><a href="" class="socytb"><img class="social" src="youtube_logo.png" alt=""></a>
+            <span class="tooltip-contentfour"><b>YouTube</b></span>
+        </span>
+    </div> 
+    <div>
+        <a id="link" class="footerlnk" href="about.html">About Us</a>
+        <a id="linktwo" class="footerlnk" href="contactus.html">Contact Us</a>
+        <a id="linkthree" class="footerlnk" href="">FAQs</a>
+    </div>    
+        <div>
+        <span id="copyright">©2023 Globabrain. All rights Reserved</span>
+    </div>
+</footer>
+</body>
+</html>
